@@ -12,7 +12,7 @@ This project will be a free-form analysis; your goal is to develop a complete an
 
 ### Data
 
-Depending on the size of your data, you may choose to include it in the repository or not (use your judgment - up to a few dozen megabytes it's not a problem, something in the Gigabyte range is too big to put into a repo). If the data isn't  included locally, your code should access it remotely and cache it adequately for subsequent executions.  If you don't include the data in the repository, consider the implications of doing so for long-term reproducibility: is the source you are using a reliable one? Will it be there in 10 years? You can also explore other ways of storing datasets, such as Zenodo. 
+Depending on the size of your data, you may choose to include it in the repository or not (use your judgment - up to a few dozen megabytes it's not a problem, something in the Gigabyte range is too big to put into a repo). If the data isn't  included locally, your code should access it remotely and cache it adequately for subsequent executions. If you don't include the data in the repository, consider the implications of doing so for long-term reproducibility: is the source you are using a reliable one? Will it be there in 10 years? You can also explore other ways of storing datasets, such as Zenodo. 
 
 
 ### Functional structure of your code and testing
