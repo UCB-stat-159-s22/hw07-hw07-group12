@@ -1,4 +1,4 @@
-name: /home/jovyan/hw07-hw07-group12/dev_env
+name: dev_env
 channels:
   - bioconda
   - anaconda
