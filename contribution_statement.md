@@ -1,9 +1,9 @@
 **Contribution Statement**
 
-Ryan- Did the analysis of dentate vignette; tests
+Ryan- Analysis of dentate vignette, environment.yml, tests
 
 Christine- README.md, Makefile, LICENSE
 
-Jackson- Utils.py, analysis of dentate JQ
+Jackson- Tests, utility functions, analysis of dentate JQ
 
-Nikaash- Test cases, utils functions
+Nikaash- Jupyterbook, LICENSE

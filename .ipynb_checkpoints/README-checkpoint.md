@@ -1,8 +1,8 @@
 # Analysis of RNA Velocity and Future Prospects in Research
 
-** Insert binder: **
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-s22/hw07-hw07-group12/main?labpath=finalproject%2Ffig1.ipynb)
 
-Analysis Jupyter Book Link: https://ucb-stat-159-s22.github.io/hw07-hw07-group12/intro.html
+**Analysis Jupyter Book Link:** https://ucb-stat-159-s22.github.io/hw07-hw07-group12/intro.html
 
 ## Purpose statement: 
 
@@ -26,4 +26,10 @@ All of the data can be accessed through (https://scvelo.readthedocs.io/) and (ht
 - Run `make all` to run the 3 analysis notebooks in the analysis_notebook directory and the main.ipynb notebook
 - Run `pytest scvtools` to run tests
 
-Authorship of the original analysis code rests with https://scvelo.readthedocs.io/.
+## Further clarifications of directories:
+
+- The `finalproject` directory is for the JupyterBook
+- Tests fall under the `scvtools` directory
+- `analysis_notebook` directory contains all notebooks with analyses
+
+Authorship of the original built-in data rests with https://scvelo.readthedocs.io/.
