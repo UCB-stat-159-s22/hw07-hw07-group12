@@ -17,22 +17,27 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-import matplotlib
-reload(matplotlib)
+import numpy as np
+import matplotlib.pyplot as pl
+import scvelo as scv
 
-matplotlib.use('nbagg')
+scv.logging.print_version()
 
-import matplotlib.backends.backend_nbagg
-reload(matplotlib.backends.backend_nbagg)
+# the main tools we will be using is scVelo, a scalable toolkit for RNA velocity analysis in single cells
+
+# created a scvtools package for the plotting functions
+from scvtools import utils
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-Input [0;32mIn [2][0m, in [0;36m<cell line: 1>[0;34m()[0m
-[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mmatplotlib[39;00m
-[1;32m      2[0m reload(matplotlib)
-[1;32m      4[0m matplotlib[38;5;241m.[39muse([38;5;124m'[39m[38;5;124mnbagg[39m[38;5;124m'[39m)
+Input [0;32mIn [1][0m, in [0;36m<cell line: 10>[0;34m()[0m
+[1;32m      5[0m scv[38;5;241m.[39mlogging[38;5;241m.[39mprint_version()
+[1;32m      7[0m [38;5;66;03m# the main tools we will be using is scVelo, a scalable toolkit for RNA velocity analysis in single cells[39;00m
+[1;32m      8[0m 
+[1;32m      9[0m [38;5;66;03m# created a scvtools package for the plotting functions[39;00m
+[0;32m---> 10[0m [38;5;28;01mfrom[39;00m [38;5;21;01mscvtools[39;00m [38;5;28;01mimport[39;00m utils
 
-[0;31mModuleNotFoundError[0m: No module named 'matplotlib'
-ModuleNotFoundError: No module named 'matplotlib'
+[0;31mModuleNotFoundError[0m: No module named 'scvtools'
+ModuleNotFoundError: No module named 'scvtools'
 
