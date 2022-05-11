@@ -1,6 +1,10 @@
 ## Analysis of RNA Velocity and Future Prospects in Research
 
-**Insert binder: **
+**
+
+https://mybinder.org/v2/gh/UCB-stat-159-s22/hw07-hw07-group12/main?labpath=main.ipynb
+
+**
 
 **Purpose statement:** The purpose of this original data analysis was to create an analysis on RNA velocity using reproducibility methods learned throughout the semester. Our analysis is on RNA velocity, where we used an existing paper (https://www.nature.com/articles/s41587-020-0591-3) in order to guide our approach on preprocessing our data as well as our analysis. Our analysis looked at a stochastic process  
 
