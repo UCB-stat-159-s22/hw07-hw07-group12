@@ -8,7 +8,7 @@
 
 This project is a conceptual overview of RNA velocity and an exploratory analysis of of a dentate gyrus dataset. 
 
-RNA velocity is a computational method that, given a single cell RNA-seq datasets, predicts, for each fell, the future state of that cell. Analogous to a photograph with motion blur, it is a method that leverages a static “snapshot” of a cell to infer its trajectory, by comparing relative levels of spliced and unspliced mRNA. 
+RNA velocity is a computational method that, given a single cell RNA-seq dataset, predicts, for each cell, the future state of that cell. Analogous to a photograph with motion blur, it is a method that leverages a static “snapshot” of a cell to infer its trajectory, by comparing relative levels of spliced and unspliced mRNA. 
 
 The analyses here explore a dentate gyrus dataset by evaluating the overall velocities of cells within annotated cell clusters, as well as exploring the transcriptional dynamics across all cells for specific marker genes. Additionally, multiple methods of inferring RNA velocity are compared. The sometimes divergent biological conclusions across models underscore the importance of model selection.
 
