@@ -44,7 +44,7 @@ def test_recover_dynamics():
     assert(dm is not None)
 
 # recovered from the ttils library should not be None. If it is, Figure 2 will not run!
-def test_utils_recover_dynamic():
-    dentategyrus = scv.datasets.dentategyrus()
-    recovered = utils.recover_dynamics(dentategyrus, ['Tmsb10', 'Ppp3ca', 'Hn1', 'Dlg2'])
-    assert(recovered is not None)
+#def test_utils_recover_dynamic():
+    #dentategyrus = scv.datasets.dentategyrus()
+    #recovered = utils.recover_dynamics(dentategyrus, ['Tmsb10', 'Ppp3ca', 'Hn1', 'Dlg2'])
+    #assert(recovered is not None)
