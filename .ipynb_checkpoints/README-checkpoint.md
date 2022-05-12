@@ -24,7 +24,7 @@ All of the data can be accessed through (https://scvelo.readthedocs.io/) and (ht
     - all: runs 3 analyses notebooks and 1 main notebook
 - Run `make clean` to remove any already loaded figures
 - Run `make all` to run the 3 analysis notebooks in the analysis_notebook directory and the main.ipynb notebook
-- Run `pytest scvtools` to run tests
+- In order to run the environment successfully and to test the functions, after running `conda activate dev_env`, run `conda install -c anaconda pytest`.
 
 ## Further clarifications of directories:
 
