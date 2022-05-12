@@ -1,6 +1,6 @@
 **Contribution Statement**
 
-Ryan- Analysis of dentate vignette, environment.yml, tests
+Ryan- RNA velocity concept, analysis of dentate vignette, environment.yml, tests
 
 Christine- README.md, Makefile, LICENSE
 
