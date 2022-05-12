@@ -17,19 +17,25 @@ The analyses here explore a dentate gyrus dataset by evaluating the overall velo
 All of the data can be accessed through (https://scvelo.readthedocs.io/) and (https://www.nature.com/articles/s41587-020-0591-3), including a tutorial on how to use the tool kit.  
 
 ## Installation Instructions:
+You can use the binder link provided above in order to run the code or clone this git repository to set up the environment, and then run the code:
 
 - To create the environment `dev_env`, run `make env` 
-    - env: sets up the environment 
-    - clean: removes the figures already in the folder
-    - all: runs 3 analyses notebooks and 1 main notebook
+    - `env`: sets up the environment 
+    - `clean`: removes the figures already in the folder
+    - `all`: runs 3 analyses notebooks and 1 main notebook
 - Run `make clean` to remove any already loaded figures
 - Run `make all` to run the 3 analysis notebooks in the analysis_notebook directory and the main.ipynb notebook
-- In order to run the environment successfully and to test the functions, after running `conda activate dev_env`, run `conda install -c anaconda pytest`.
+- Note that all figures within the notebook already exists, so running `make clean` will ensure that it's deleted in the figures directory, and running `make all` should add them back into the directory.
+
+## Testing:
+- In order to run the environment successfully and to test the functions, after running `make env`, run `conda install -c anaconda pytest`
+- Then run `pytest scvtools`
 
 ## Further clarifications of directories:
 
 - The `finalproject` directory is for the JupyterBook
 - Tests fall under the `scvtools` directory
 - `analysis_notebook` directory contains all notebooks with analyses
+- The analysis paper, as well as results of the analysis reside in the `main.ipynb` notebook
 
 Authorship of the original built-in data rests with https://scvelo.readthedocs.io/.
